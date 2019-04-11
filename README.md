@@ -8,9 +8,7 @@ Generate self signed certificates:
 Test HTTP connections:
 
 	curl --verbose http://localhost:8080/hello
-	Hello HTTP/1.1 world!
 
 Test HTTPS connections:
 
 	curl --verbose --insecure https://localhost:8090/hello
-	Hello HTTP/12.0 world!
